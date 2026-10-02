@@ -243,7 +243,7 @@ public class MainPage extends Page {
 		bckp.setToolTipText(get(MainLocale.PAGE,"bckptip"));
 
 		add(logs);
-		logs.setToolTipText(""); // TODO: Logs tool tip
+		logs.setToolTipText("<html>Allows you to see the crash logs from all BCU launches.</html>"); // TODO: Logs tool tip
 
 		add(refr);
 		add(tips);
