@@ -758,7 +758,7 @@ public abstract class EntityEditPage extends Page implements SwingEditor.EditCtr
                         v[0] = 1;
                     ce.hp = v[0];
                 }
-                if (jtf == fhb) {
+                if (jtf == fhb) { // Verification for Hitbacks, will not be removed as negative hitbacks always = 1 hitback.
                     if (v[0] <= 0)
                         v[0] = 1;
                     ce.hb = v[0];
