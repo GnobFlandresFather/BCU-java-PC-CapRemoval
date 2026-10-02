@@ -763,8 +763,8 @@ public abstract class EntityEditPage extends Page implements SwingEditor.EditCtr
                         v[0] = 1;
                     ce.hb = v[0];
                 }
-                if (jtf == fsp) {
-                    ce.speed = Math.max(0, v[0]);
+                if (jtf == fsp) { // Verification for Speed
+                    ce.speed = v[0];
                 }
                 if (jtf == fra) { // Verification for Range
                     ce.range = v[0];
