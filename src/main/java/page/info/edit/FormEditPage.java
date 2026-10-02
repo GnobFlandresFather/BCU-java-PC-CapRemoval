@@ -86,7 +86,7 @@ public class FormEditPage extends EntityEditPage {
 				v[0] = 1;
 			lv = v[0];
 		}
-		if (jtf == frs) {
+		if (jtf == frs) { // Verification for Unit Respawn
 			if (v[0] <= 60)
 				v[0] = 60;
 			cu.resp = bas.t().getRevRes(v[0]);
