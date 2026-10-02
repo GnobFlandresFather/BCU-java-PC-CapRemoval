@@ -784,7 +784,7 @@ public abstract class EntityEditPage extends Page implements SwingEditor.EditCtr
                         v[0] = 0;
                     ce.base = v[0];
                 }
-                if (jtf == ftp) {
+                if (jtf == ftp) { // Type attack
                     if (v[0] < 1)
                         v[0] = 1;
                     ce.touch = v[0];
