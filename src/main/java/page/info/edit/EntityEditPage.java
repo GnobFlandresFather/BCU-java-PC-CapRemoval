@@ -285,7 +285,7 @@ public abstract class EntityEditPage extends Page implements SwingEditor.EditCtr
         setFocusTraversalPolicy(ljp);
         setFocusCycleRoot(true);
         addListeners();
-        atkn.setToolTipText("<html>"
+        atkn.setToolTipText("<html>" // Attack Tooltip
                 + "use name \"revenge\" for attack during HB animation<br>"
                 + "use name \"resurrection\" for attack during death animation<br>"
                 + "use name \"counterattack\" for a more customizable counterattack (Needs Counter proc parameters still)<br>"
