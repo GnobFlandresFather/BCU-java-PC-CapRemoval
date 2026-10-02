@@ -33,7 +33,7 @@ public class FormEditPage extends EntityEditPage {
 	private final JBTN stat = new JBTN(0, "stat");
 	private final JBTN impt = new JBTN(0, "import");
 	private final JBTN vene = new JBTN(0, "enemy");
-	private final JBTN pcoin = new JBTN(0, "pcoin");
+	private final JBTN pcoin = new JBTN(0, "pcoin"); // Talents
 	private final JTF[] fdesc = new JTF[4];
 	private final UnitEditBox ueb;
 	private final Form form;
