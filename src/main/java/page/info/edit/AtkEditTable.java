@@ -166,6 +166,7 @@ class AtkEditTable extends Page {
 		for (int i = 0; i < Interpret.SABIS.length; i++)
 			ttt.append(i).append(": ").append(Interpret.SABIS[i]).append("<br>");
 		fab.setToolTipText(ttt + "</html>");
+		lmv.setToolTipText("<html>Makes the entity instantly move the set distance forward / backward once the attack activates.");
 
 		isr.setEnabled(editable);
 		spt.setEnabled(editable);
