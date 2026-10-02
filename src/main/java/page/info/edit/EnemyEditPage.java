@@ -160,6 +160,12 @@ public class EnemyEditPage extends EntityEditPage {
 			else
 				edesc[i].setText(eneDesc[i]);
 		fsr.setText("star: " + ce.star);
+		fsr.setToolTipText("<html>"
+				+ "0 for unstarred<br>"
+				+ "1 for starred (Not limited by traits)<br>"
+				+ "2 for Cat God 1 (Mystery Mask Ch.1)<br>"
+				+ "3 for Cat God 2 (Mystery Mask Ch.2)<br>"
+				+ "4 for Cat God 3 (Mystery Mask Ch.3)</html>");
 		fdr.setText(String.valueOf(Math.floor(ce.getDrop() * bas.t().getDropMulti()) / 100));
 		fli.setText(String.valueOf(ce.getLimit()));
 		fli.setToolTipText("<html>"
