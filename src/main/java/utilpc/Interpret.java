@@ -1120,7 +1120,7 @@ public class Interpret extends Data {
                     else if (smName == null || smName.isEmpty()) {
                         smName = data.getExStages()[i].getCont().id.toString();
 
-                        name = smName + " - " + name;
+                        name = smName + " - " + name; // Connects the Subchapter name with the stage name.
                     } else {
                         name = smName + " - " + name;
                     }
