@@ -293,7 +293,7 @@ public abstract class EntityEditPage extends Page implements SwingEditor.EditCtr
                 + "use name \"resurface\" for attack during burrow up animation<br>"
                 + "use name \"revive\" for attack during reviving<br>"
                 + "use name \"sacrifice\" for attack on self destruct</html>");
-        ftp.setToolTipText("<html>"
+        ftp.setToolTipText("<html>" // Type attack (Touch) Tooltip
                 + "+1 for normal attack<br>"
                 + "+2 to attack kb<br>"
                 + "+4 to attack underground<br>"
