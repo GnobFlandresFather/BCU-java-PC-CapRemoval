@@ -302,7 +302,9 @@ public abstract class EntityEditPage extends Page implements SwingEditor.EditCtr
                 + "+32 to attack ghost<br>"
                 + "+64 to attack entities that can revive others<br>"
                 + "+128 to attack enter animations</html>");
-        fwp.setToolTipText("<html>The amount of slots this entity will take of the limit when spawned</html>");
+        fwp.setToolTipText("<html>The amount of slots this entity will take of the limit when spawned.</html>"); // Willpower Tooltip
+        fwd.setToolTipText("<html>The Hitbox size of this entity, mainly used for clipping.</html>");
+        fbs.setToolTipText("<html>The minimum range for this entity to hit the base, only useful with LD / Omni.</html>");
 
         add.setEnabled(editable);
         rem.setEnabled(editable);
