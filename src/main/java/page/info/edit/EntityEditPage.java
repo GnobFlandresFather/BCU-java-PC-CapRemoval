@@ -794,11 +794,7 @@ public abstract class EntityEditPage extends Page implements SwingEditor.EditCtr
                         v[0] = -1;
                     ce.loop = v[0];
                 }
-                if (jtf == fwp) {
-                    if (v[0] < 0)
-                        v[0] = 0;
-                    if (v[0] > 50)
-                        v[0] = 50;
+                if (jtf == fwp) { // Verification for Willpower
                     ce.will = v[0] - 1;
                 }
                 getInput(jtf, v);
