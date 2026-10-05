@@ -105,7 +105,7 @@ public class AdvStEditPage extends Page {
 		set(jltprob, x, y, 1200, 900, 150, 50);
 		set(jtprob, x, y, 1350, 900, 150, 50);
 		//set(gtline, x, y, 1200, 950, 300, 50);
-		set(equal, x, y, 1200, 1000, 300, 50);
+		set(equal, x, y, 1200, 950, 300, 50);
 
 		set(scores, x, y, 1550, 100, 300, 50);
 		set(jssc, x, y, 1550, 150, 300, 450);
