@@ -64,6 +64,7 @@ public class MenuBarHandler {
 
         save.setEnabled(false);
         back.setEnabled(false);
+        home.setEnabled(true);
 
         menu.add(save);
         history.add(back);
