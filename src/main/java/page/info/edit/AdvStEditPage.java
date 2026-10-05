@@ -58,7 +58,7 @@ public class AdvStEditPage extends Page {
 	private final JTF jprob = new JTF();
 	private final JL jltprob = new JL(0, "total");
 	private final JTF jtprob = new JTF();
-	private final JTG gtline = new JTG(MainLocale.INFO, "Go To Lineups");
+	//private final JTG gtline = new JTG(MainLocale.INFO, "Go To Lineups");
 	private final JBTN equal = new JBTN(0, "equalprob");
 	private StageViewPage svp;
 
