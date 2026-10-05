@@ -298,9 +298,9 @@ public class AdvStEditPage extends Page {
 		add(jprob);
 		add(jltprob);
 		add(jtprob);
-		add(gtline);
-		gtline.setToolTipText("<html>Takes you to the Lineup page instead of straight onto the next stage.<br>" +
-				"Currently Does nothing.</html>"); // TODO: Give actual Properties to make it work.
+		//add(gtline);
+		//gtline.setToolTipText("<html>Takes you to the Lineup page instead of straight onto the next stage.<br>" +
+				//"Currently Does nothing.</html>"); // TODO: Give actual Properties to make it work.
 		add(equal);
 
 		if (st.trail) {
