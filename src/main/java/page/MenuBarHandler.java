@@ -48,11 +48,26 @@ public class MenuBarHandler {
             }
         });
 
+        JMenuItem home = new JMenuItem("Main Menu");
+        home.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_HOME, 0));
+        home.addActionListener(e -> {
+            if(MainFrame.getPanel().getBackButton() != null)  {
+                do {
+                    MainFrame.getPanel().getBackButton().doClick();
+                } while (MainFrame.getPanel().getBackButton() != null);
+            }
+            else {
+                home.setEnabled(true);
+            } //Genuinely Godawful solution, unfortunately I do not know how to code properly, please forgive me.
+            // Also has a visual glitch where it shows on the main page (Clicking it does nothing, that's what the else condition is for), it still works perfectly fine otherwise.
+        });
+
         save.setEnabled(false);
         back.setEnabled(false);
 
         menu.add(save);
         history.add(back);
+        history.add(home);
 
         fileItems.add(save);
         fileItems.add(back);
