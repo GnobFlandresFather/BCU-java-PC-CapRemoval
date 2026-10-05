@@ -72,6 +72,7 @@ public class MenuBarHandler {
 
         fileItems.add(save);
         fileItems.add(back);
+        fileItems.add(home);
     }
 
     public static JMenuItem getFileItem(String n) {
