@@ -1,5 +1,6 @@
 package page;
 
+import common.CommonStatic;
 import io.BCUWriter;
 import main.MainBCU;
 import main.Opts;
