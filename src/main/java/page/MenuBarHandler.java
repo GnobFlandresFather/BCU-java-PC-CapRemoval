@@ -27,6 +27,7 @@ public class MenuBarHandler {
     private static void setFileItems() {
         JMenu menu = new JMenu("File");
         JMenu history = new JMenu("History");
+        JMenu settings = new JMenu("Settings");
 
         bar.add(menu);
         bar.add(history);
