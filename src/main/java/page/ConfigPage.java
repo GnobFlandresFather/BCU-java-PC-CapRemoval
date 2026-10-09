@@ -24,7 +24,7 @@ public class ConfigPage extends Page {
 
 	private static final long serialVersionUID = 1L;
 
-	private static Config cfg() {
+	static Config cfg() {
 		return CommonStatic.getConfig();
 	}
 
