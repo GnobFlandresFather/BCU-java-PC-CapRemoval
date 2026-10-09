@@ -11,6 +11,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class MenuBarHandler {
+
+    static CommonStatic.Config cfg() {
+        return CommonStatic.getConfig();
+    }
+
     private static final JMenuBar bar = new JMenuBar();
 
     private static final List<JMenuItem> fileItems = new ArrayList<>();
