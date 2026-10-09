@@ -68,6 +68,11 @@ public class MenuBarHandler {
             cfg().performanceModeBattle = !cfg().performanceModeBattle; // Will need to add a setting that disables it on the config page.
         });
 
+        JCheckBoxMenuItem realvl = new JCheckBoxMenuItem("Real Leveling");
+        realvl.addActionListener(e -> {
+            CommonStatic.getConfig().realLevel = realvl.isSelected();
+        });
+
         save.setEnabled(false);
         back.setEnabled(false);
         home.setEnabled(false);
