@@ -31,6 +31,7 @@ public class MenuBarHandler {
 
         bar.add(menu);
         bar.add(history);
+        bar.add(settings);
 
         int shortcut = Toolkit.getDefaultToolkit().getMenuShortcutKeyMask();
 
