@@ -59,7 +59,6 @@ public class MenuBarHandler {
             else {
                 home.setEnabled(true);
             } //Genuinely Godawful solution, unfortunately I do not know how to code properly, please forgive me.
-            // Also has a visual glitch where it shows on the main page (Clicking it does nothing, that's what the else condition is for), it still works perfectly fine otherwise.
         });
 
         save.setEnabled(false);
