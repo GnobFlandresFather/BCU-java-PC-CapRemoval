@@ -134,12 +134,12 @@ class EFBButton extends EnemyFilterBox {
 
 	private static final long serialVersionUID = 1L;
 
-	private final JTG[] orop = new JTG[3];
-	private final JTG[] rare = new JTG[ERARE.length];
-	private final JTG[] trait = new JTG[TRAIT.length];
-	private final JTG[] abis = new JTG[EABIIND.length];
-	private final JTG[] proc = new JTG[EPROCIND.length];
-	private final JTG[] atkt = new JTG[ATKCONF.length];
+	private final JTG[] orop = new JTG[3];// Or + And operation
+	private final JTG[] rare = new JTG[ERARE.length];// Rarities
+	private final JTG[] trait = new JTG[TRAIT.length];// Traits
+	private final JTG[] abis = new JTG[EABIIND.length];// Abilities
+	private final JTG[] proc = new JTG[EPROCIND.length];// ??? Might also be abilities???
+	private final JTG[] atkt = new JTG[ATKCONF.length];// Attack Type (LD, Area, Omni)
 
 	protected EFBButton(Page p) {
 		super(p);
