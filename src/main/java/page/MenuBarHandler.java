@@ -61,6 +61,13 @@ public class MenuBarHandler {
             } //Genuinely Godawful solution, unfortunately I do not know how to code properly, please forgive me.
         });
 
+        JCheckBoxMenuItem fps = new JCheckBoxMenuItem("60fps");
+        fps.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_NUM_LOCK, 0));
+        fps.addActionListener(e -> {
+            cfg().performanceModeAnimation = !cfg().performanceModeAnimation;
+            cfg().performanceModeBattle = !cfg().performanceModeBattle; // Will need to add a setting that disables it on the config page.
+        });
+
         save.setEnabled(false);
         back.setEnabled(false);
         home.setEnabled(false);
