@@ -82,6 +82,8 @@ public class MenuBarHandler {
         menu.add(save);
         history.add(back);
         history.add(home);
+        settings.add(fps);
+        settings.add(realvl);
 
         fileItems.add(save);
         fileItems.add(back);
