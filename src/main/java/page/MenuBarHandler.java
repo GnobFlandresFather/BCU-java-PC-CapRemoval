@@ -76,6 +76,8 @@ public class MenuBarHandler {
         save.setEnabled(false);
         back.setEnabled(false);
         home.setEnabled(false);
+        fps.setEnabled(true);
+        realvl.setEnabled(true);
 
         menu.add(save);
         history.add(back);
