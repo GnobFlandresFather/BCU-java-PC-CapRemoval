@@ -70,6 +70,18 @@ public class MenuBarHandler {
             } //Genuinely Godawful solution, unfortunately I do not know how to code properly, please forgive me.
         });
 
+        JCheckBoxMenuItem realvl = new JCheckBoxMenuItem("Real Leveling");
+        realvl.setAccelerator(KeyStroke.getKeyStroke('R', shortcut));
+        realvl.addActionListener(e -> {
+            cfg().realLevel = realvl.isSelected();
+        });
+
+        JCheckBoxMenuItem whitebg = new JCheckBoxMenuItem("White BG");
+        whitebg.setAccelerator(KeyStroke.getKeyStroke('W', shortcut));
+        whitebg.addActionListener(e -> {
+            ViewBox.Conf.white = whitebg.isSelected();
+        });
+        
         JCheckBoxMenuItem fps = new JCheckBoxMenuItem("60fps");
         fps.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_NUM_LOCK, 0));
         fps.addActionListener(e -> {
