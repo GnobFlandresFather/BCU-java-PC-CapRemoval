@@ -38,6 +38,9 @@ public class MainFrame extends JFrame {
 		JMenuItem home = MenuBarHandler.getFileItem("Main Menu");
 		//JCheckBoxMenuItem fps = (JCheckBoxMenuItem) MenuBarHandler.getFileItem("60fps");
 
+		//if(getPanel() != ConfigPage) {
+			//fps.setEnabled(p.getRootPage() != ConfigPage);
+		//} // My best attempt at disabling settings in config menu, doesn't work, I don't know what the fuck I'm doing.
 		if(back != null && p != null) {
 			back.setEnabled(p.getBackButton() != null);
 			home.setEnabled(p.getBackButton() != null);
