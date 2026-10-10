@@ -29,6 +29,7 @@ public class MainFrame extends JFrame {
 	public static MainFrame F;
 
 	private static Page mainPanel = null;
+	//private static Page ConfigPage;
 
 	public static void changePanel(Page p) {
 		F.FchangePanel(p);
