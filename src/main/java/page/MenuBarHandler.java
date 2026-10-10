@@ -103,6 +103,7 @@ public class MenuBarHandler {
         fileItems.add(home);
         fileItems.add(fps);
         fileItems.add(realvl);
+        fileItems.add(whitebg);
     }
 
     public static JMenuItem getFileItem(String n) {
