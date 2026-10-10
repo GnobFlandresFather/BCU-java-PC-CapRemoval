@@ -81,6 +81,11 @@ public class MenuBarHandler {
             cfg().realLevel = realvl.isSelected();
         });
 
+        JCheckBoxMenuItem whitebg = new JCheckBoxMenuItem("White BG");
+        whitebg.addActionListener(e -> {
+            ViewBox.Conf.white = whitebg.isSelected();
+        });
+
         save.setEnabled(false);
         back.setEnabled(false);
         home.setEnabled(false);
