@@ -81,7 +81,7 @@ public class MenuBarHandler {
         whitebg.addActionListener(e -> {
             ViewBox.Conf.white = whitebg.isSelected();
         });
-        
+
         JCheckBoxMenuItem fps = new JCheckBoxMenuItem("60fps");
         fps.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_NUM_LOCK, 0));
         fps.addActionListener(e -> {
