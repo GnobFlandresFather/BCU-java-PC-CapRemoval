@@ -91,6 +91,7 @@ public class MenuBarHandler {
         home.setEnabled(false);
         fps.setEnabled(true);
         realvl.setEnabled(true);
+        whitebg.setEnabled(true);
 
         menu.add(save);
         history.add(back);
