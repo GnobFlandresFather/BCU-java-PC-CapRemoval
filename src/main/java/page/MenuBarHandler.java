@@ -4,6 +4,7 @@ import common.CommonStatic;
 import io.BCUWriter;
 import main.MainBCU;
 import main.Opts;
+import page.view.ViewBox;
 
 import javax.swing.*;
 import java.awt.*;
