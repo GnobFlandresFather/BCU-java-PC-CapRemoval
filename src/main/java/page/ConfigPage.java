@@ -416,7 +416,7 @@ public class ConfigPage extends Page {
 
 		shake.addActionListener(c -> CommonStatic.getConfig().shake = shake.isSelected());
 		reallv.addActionListener(c -> CommonStatic.getConfig().realLevel = reallv.isSelected());
-		jcdrag.addActionListener(c -> MainBCU.clickWithinDragWindow = jcdrag.isSelected());
+		jcdrag.addActionListener(c -> MainBCU.clickWithinDragWindow = jcdrag.isSelected()); // TODO: Maybe swap this with a textbox to pick how long drag compensation will be
 
 		tole.setLnr(c -> {
 			MainBCU.searchTolerance = Math.max(0, CommonStatic.parseIntN(tole.getText()));
