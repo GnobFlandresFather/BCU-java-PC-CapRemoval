@@ -97,6 +97,7 @@ public class MenuBarHandler {
         history.add(home);
         settings.add(fps);
         settings.add(realvl);
+        settings.add(whitebg);
 
         fileItems.add(save);
         fileItems.add(back);
