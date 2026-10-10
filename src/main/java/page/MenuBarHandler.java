@@ -78,7 +78,7 @@ public class MenuBarHandler {
 
         JCheckBoxMenuItem realvl = new JCheckBoxMenuItem("Real Leveling");
         realvl.addActionListener(e -> {
-            CommonStatic.getConfig().realLevel = realvl.isSelected();
+            cfg().realLevel = realvl.isSelected();
         });
 
         save.setEnabled(false);
