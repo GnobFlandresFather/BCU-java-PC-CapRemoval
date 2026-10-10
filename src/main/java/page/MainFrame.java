@@ -36,6 +36,7 @@ public class MainFrame extends JFrame {
 
 		JMenuItem back = MenuBarHandler.getFileItem("Go Back");
 		JMenuItem home = MenuBarHandler.getFileItem("Main Menu");
+		//JCheckBoxMenuItem fps = (JCheckBoxMenuItem) MenuBarHandler.getFileItem("60fps");
 
 		if(back != null && p != null) {
 			back.setEnabled(p.getBackButton() != null);
